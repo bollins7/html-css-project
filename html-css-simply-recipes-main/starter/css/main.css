@@ -260,3 +260,37 @@ Navbar
 ===============
 */
 
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-center{
+  width: 90vw;
+  max-width: var(--max-width);
+}
+
+.nav-header{
+  height: 6rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-header img{
+  width: 200px;
+}
+
+.nav-btn{
+  padding: 0.15rem 0.75rem;
+}
+
+.nav-btn i{
+  font-size: 1.25rem;
+}
+
+.nav-links{
+  display: flex;
+  flex-direction: column;
+}
